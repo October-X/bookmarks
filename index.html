@@ -9,36 +9,41 @@
     <title>Future Website Manager</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="./css/Animate.css"
+    />
 </head>
 
 <body>
-    <div class="top">
+    <div class="top animate__animated animate__backInDown">
         <!-- <h1><i class="web-font" style="color: rgb(225, 6, 2);">FU</i><i class="web-font"
                 style="color: black;">TU</i><i class="web-font" style="color: rgb(225, 6, 2);">RE</i></h1>  -->
-        <h1><i class="web-font" style="color: black;">F</i>
-            <i class="web-font" style="color: white;">U</i>
-            <i class="web-font" style="color: black;">T</i>
-            <i class="web-font" style="color: white;">U</i>
-            <i class="web-font" style="color: black;">R</i>
-            <i class="web-font" style="color: white;">E</i>
+        <h1>
+            <i class="web-font animate__animated animate__lightSpeedInLeft animate__delay-2s" style="color: black;">F</i>
+            <i class="web-font animate__animated animate__zoomIn animate__delay-1s" style="color: white;">U</i>
+            <i class="web-font animate__animated animate__flipInX animate__delay-1s" style="color: black;">T</i>
+            <i class="web-font animate__animated animate__flipInY animate__delay-1s" style="color: white;">U</i>
+            <i class="web-font animate__animated animate__bounceIn animate__delay-1s" style="color: black;">R</i>
+            <i class="web-font animate__animated animate__lightSpeedInRight animate__delay-2s" style="color: white;">E</i>
         </h1>
     </div>
     <form action="https://www.baidu.com/s" target="_blank">
-        <div class="search">
+        <div class="search animate__animated animate__backInLeft">
             <input type="text" name="wd" class="text" autofocus autocomplete="off">
             <button type="submit" class="do">百度一下</button>
         </div>
     </form>
-    <div class="nav">
-        <button class="item" id="vedio" style="color:red;"><span>影视</span></button>
+    <div class="nav animate__animated animate__backInRight">
+        <button class="item" id="vedio"><span>影视</span></button>
         <button class="item" id="study"><span>学习</span></button>
         <button class="item" id="play"><span>娱乐</span></button>
-        <button class="item" id="code"><span>编程</span></button>
+        <button class="item" id="code" style="color:red;"><span>编程</span></button>
         <button class="item" id="item"><span>项目</span></button>
     </div>
-    <div class="bookmark">
+    <div class="bookmark clearfix animate__animated animate__backInUp">
         <!-- 影视 -->
-        <div id="bvedio">
+        <div id="bvedio" style="display: none;">
         </div>
         <!-- 影视结束 -->
         <!-- 学习 -->
@@ -50,7 +55,7 @@
         </div>
         <!-- 娱乐结束 -->
         <!-- 代码 -->
-        <div id="bcode" style="display: none;">
+        <div id="bcode">
         </div>
         <!-- 代码结束 -->
         <!-- 项目 -->

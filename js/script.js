@@ -1,6 +1,10 @@
 function my$(id) {
   return document.getElementById(id);
 }
+const bookmarkMoudle = document.querySelector('.bookmark')
+bookmarkMoudle.addEventListener('animationend',() => {
+  document.querySelector('html').style.overflow = 'auto'
+})
 var bookmarks = ["bvedio", "bstudy", "bentertainment", "bcode", "bitem"];
 var navmarks = ["vedio", "study", "play", "code", "item"];
 (function () {
@@ -60,7 +64,7 @@ var navmarks = ["vedio", "study", "play", "code", "item"];
         a.href = dataItem[j].href;
         a.target = '_blank'
         div.className = 'ico';
-        img.src = './ico/'+dataItem[j].pic;
+        img.src = dataItem[j].pic;
         span.innerHTML = dataItem[j].title;
         div.appendChild(img);
         a.appendChild(div);

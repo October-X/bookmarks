@@ -5,11 +5,17 @@
 @media screen and (min-width: 750px) {
 html {
     font-size: 37.5px !important;
+    overflow: hidden;
 }
 }
 body{
     min-width: 320px;
     background-color: #efeef3;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
 }
 @font-face {
     font-family: "webfont";
@@ -57,7 +63,13 @@ a {
     font-size: 1.866667rem;
     bottom: .533333rem;
     left: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     transform: translateX(-50%);
+}
+.top h1 i{
+    margin-left:0.4rem;
 }
 
 .search {
