@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: auto;
+}
+@media screen and (min-width: 750px) {
+html {
+    font-size: 37.5px !important;
+}
+}
+body{
+    min-width: 320px;
+}
+@font-face {
+    font-family: "webfont";
+    font-display: swap;
+    src: url("../font/webfont.eot");
+    /* IE9 */
+    src: url("../font/webfont.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("../font/webfont.woff2") format("woff2"), url("../font/webfont.woff") format("woff"),
+        /* chrome、firefox */
+        url("../font/webfont.ttf") format("truetype"),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url("../font/webfont.svg#webfont") format("svg");
+    /* iOS 4.1- */
+}
+
+.web-font {
+    font-family: "webfont" !important;
+    font-size: 2.133333rem;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: slategray;
+}
+
+.top {
+    position: relative;
+    width: 100%;
+    height: 5.333333rem;
+    text-align: center;
+}
+
+.top h1 {
+    position: absolute;
+    font-size: 1.866667rem;
+    bottom: .533333rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.search {
+    width: 17.44rem;
+    height: 1.173333rem;
+    margin: auto;
+    display: flex;
+}
+
+.text {
+    box-sizing: border-box;
+    /* width: 547px; */
+    flex: 5;
+    height: 1.173333rem;
+    font-size: .453333rem;
+    border-radius: .266667rem 0 0 .266667rem;
+    border: .053333rem solid #ccc;
+    border-right: 0;
+    padding-left: .533333rem;
+    /* border-left: 0; */
+}
+
+.text:focus {
+    outline: none;
+    border: .053333rem solid rgb(225, 6, 2);
+    border-radius: .266667rem 0 0 .266667rem;
+    border-right: 0;
+    background-color: white;
+}
+
+.do {
+    box-sizing: border-box;
+    border-radius: 0 .266667rem .266667rem 0;
+    font-size: .453333rem;
+    flex: 1;
+    height: 100%;
+    /* border: 2px solid black; */
+    /* border-left: 0; */
+    border: 0;
+    background-color: rgb(225, 6, 2);
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.do:hover {
+    color: white;
+    font-size: .453333rem;
+    background-color: black;
+}
+
+.nav {
+    width: 17.2rem;
+    box-sizing: border-box;
+    height: .8rem;
+    margin-top: 1.333333rem;
+    /* background-color: skyblue; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav button {
+    display: flex;
+    position: relative;
+    width: 20%;
+    height: .8rem;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: .533333rem;
+    border: 0;
+}
+
+.nav button::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: .053333rem;
+    background-color: rgb(225, 6, 2);
+}
+
+.nav button:hover::after {
+    left: 0;
+    transition: all .8s;
+    width: 100%;
+}
+
+.nav span {
+    font-weight: 200;
+}
+
+.bookmark {
+    margin-top: .666667rem;
+    width: 17.44rem;
+}
+
+.bookmark ul li {
+    width: 2.906667rem;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    height: 2.666667rem;
+    float: left;
+    text-align: center;
+}
+
+.bookmark ul li .ico {
+    position: relative;
+    width: 1.28rem;
+    height: 1.28rem;
+    margin-top: .426667rem;
+    /* background-color: pink; */
+    line-height: 1.28rem;
+    background-color: #f1f3f4;
+    border-radius: .64rem;
+}
+
+.bookmark ul li .ico img {
+    margin-top: .32rem;
+    width: .64rem;
+    border-radius: .133333rem;
+}
+
+.bookmark ul li span {
+    display: block;
+    font-size: .346667rem;
+}
+
+.bookmark ul li:hover {
+    border-radius: .266667rem;
+    background-color: rgb(232, 232, 233);
+}

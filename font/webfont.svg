@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+
+<svg>
+<metadata>
+Created by webfont
+</metadata>
+<defs>
+
+<font id="PangMenZhengDao" horiz-adv-x="1057" vert-adv-y="1057" >
+  <font-face
+    
+    font-family="PangMenZhengDao"
+    
+    font-weight="400"
+    
+    font-stretch="normal"
+    
+    units-per-em="1000"
+    
+    ascent="859"
+    
+    descent="-141"
+    
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="uni45" unicode="&#x45;" d="M568 667L568 548L383 548Q311 548 278 538Q245 528 223 499Q208 479 202.50 459Q197 439 193 391L568 391L568 272L193 272Q201 186 244 152.50Q287 119 390 119L568 119L568 0L383 0Q308 0 251 9Q161 24 108 88Q32 180 32 337Q32 511 139 608Q176 641 217.50 654Q259 667 329 667L568 667Z"  horiz-adv-x="612" vert-adv-y="1000"  />
+
+    
+    <glyph glyph-name="uni46" unicode="&#x46;" d="M599 394L599 275L201 275L201 0L60 0L60 348Q61 498 88 545Q122 611 186.50 639Q251 667 368 667L599 667L599 548L386 548Q287 546 259 532Q203 509 201 430L201 394L599 394Z"  horiz-adv-x="636" vert-adv-y="1000"  />
+
+    
+    <glyph glyph-name="uni52" unicode="&#x52;" d="M210 253L210 0L68 0L68 667L394 667Q534 667 589 631Q627 607 647.50 567.50Q668 528 668 481Q668 386 620 334Q590 303 541 287Q580 273 600 257.50Q620 242 636 212Q648 188 653.50 166Q659 144 662 101Q668 29 678 0L519 0Q512 23 504 95Q499 153 483.50 184Q468 215 437 233Q398 254 324 253L210 253M210 372L409 372Q459 372 480 387Q512 409 512 464Q512 525 464 542Q447 548 409 548L210 548L210 372Z"  horiz-adv-x="714" vert-adv-y="1000"  />
+
+    
+    <glyph glyph-name="uni54" unicode="&#x54;" d="M216 548L4 548L4 667L579 667L579 548L358 548L358 0L216 0L216 548Z"  horiz-adv-x="584" vert-adv-y="1000"  />
+
+    
+    <glyph glyph-name="uni55" unicode="&#x55;" d="M201 667L201 267Q201 219 209 192.50Q217 166 236 147Q278 106 353 106Q401 106 436.50 122.50Q472 139 486 167Q500 195 500 267L500 667L642 667L642 274Q642 196 625.50 145.50Q609 95 575 64Q496-5 351-5Q196-5 125 63Q88 98 74 141.50Q60 185 60 264L60 667L201 667Z"  horiz-adv-x="703" vert-adv-y="1000"  />
+
+    
+
+  </font>
+</defs></svg>
